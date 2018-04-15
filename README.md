@@ -13,10 +13,10 @@
 ## 4）echo命令
 ### echo是用于终端打印的命令，默认情况下每次调用后会添加一个换行符
 ###例子：
-####echo "hello world"->hello world
-####echo hello world ->hello world
-####echo 'hello world' ->hello world
-####说明：
+#### echo "hello world"->hello world
+#### echo hello world ->hello world
+#### echo 'hello world' ->hello world
+#### 说明：
 ##### 双引号支持普通文本和变量输出
 ###### var="hello";echo "$var world;java"->hello world;java
 ##### 单引号原样输出，不支持变量
@@ -29,9 +29,9 @@
 ##### 颜色输出 \e[0;31m(文本颜色) xxxxxxx \e[0m（颜色恢复）  
 ###### echo -e "\e[0;31m this is read \e[0m"->this is read（文本红色）
 ## 5）printf命令
-###printf "%-5s %-10s %-5s\n"   no name remark
-###printf "%-5s %-10s %-4.2f\n" 1  tom    98.123
-###printf "%-5s %-10s %-4.2f\n" 2  jack   123.123
+### printf "%-5s %-10s %-5s\n"   no name remark
+### printf "%-5s %-10s %-4.2f\n" 1  tom    98.123
+### printf "%-5s %-10s %-4.2f\n" 2  jack   123.123
 ### 输出：
 ### no    name       remark
 ### 1     tom        98.12
